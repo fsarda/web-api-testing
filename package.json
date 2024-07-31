@@ -1,0 +1,29 @@
+{
+  "name": "web-api-testing",
+  "version": "1.0.0",
+  "description": "Testing around web stuff ",
+  "main": "index.js",
+  "scripts": {
+    "all:examples": "http-server --port=0 -c -1",
+    "example:webworker": "http-server --port=0 -c -1 -o ./web-worker-for-massive-client-logs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsarda/web-api-testing.git"
+  },
+  "keywords": [
+    "web",
+    "api",
+    "web",
+    "worker"
+  ],
+  "author": "fsarda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fsarda/web-api-testing/issues"
+  },
+  "homepage": "https://github.com/fsarda/web-api-testing#readme",
+  "dependencies": {
+    "http-server": "14.1.1"
+  }
+}
